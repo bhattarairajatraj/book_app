@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: _showAppBar ? buildAppBar() : null,
       body: Container(
-        color: Colors.green[100],
+        color: Colors.red,
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
       backgroundColor: Colors.green[100],
