@@ -53,6 +53,9 @@ class _LoginFormState extends State<LoginForm> {
                   height: 40.0,
                 ),
                 Container(
+                  constraints: BoxConstraints(
+                    maxWidth: 350.0,
+                  ),
                   padding: EdgeInsets.symmetric(horizontal: 20.0),
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.grey),
@@ -68,6 +71,9 @@ class _LoginFormState extends State<LoginForm> {
                 ),
                 SizedBox(height: 20.0),
                 Container(
+                  constraints: BoxConstraints(
+                    maxWidth: 350.0,
+                  ),
                   padding: EdgeInsets.symmetric(horizontal: 20.0),
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.grey),
@@ -89,7 +95,7 @@ class _LoginFormState extends State<LoginForm> {
                     onPressed: () {},
                     style: OutlinedButton.styleFrom(
                       backgroundColor: Color.fromARGB(255, 48, 102, 50),
-                      padding: EdgeInsets.symmetric(horizontal: 140.0),
+                      padding: EdgeInsets.symmetric(horizontal: 120.0),
                     ),
                     child: Text(
                       'Sign In',

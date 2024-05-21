@@ -107,7 +107,7 @@ class HomePage extends StatelessWidget {
 
   Widget _buildBooksContainer(context) {
     return Container(
-      margin: EdgeInsets.only(top: 20, left: 25),
+      margin: EdgeInsets.only(top: 20, left: 20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -144,7 +144,6 @@ class HomePage extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 10),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             child: Row(
@@ -162,16 +161,16 @@ class HomePage extends StatelessWidget {
 
   Widget _buildBookItem(String imagePath, String bookTitle) {
     return Container(
-      margin: EdgeInsets.fromLTRB(20, 30, 10, 5),
+      margin: EdgeInsets.fromLTRB(5, 30, 10, 5),
       child: Column(
         children: [
           Image.asset(imagePath),
-          SizedBox(height: 20.0),
+          SizedBox(height: 10.0),
           Text(
             bookTitle,
             style: TextStyle(
               fontFamily: "Poppins",
-              fontSize: 16,
+              fontSize: 18,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -221,8 +220,8 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  child: Image.network(
-                    'https://lh3.googleusercontent.com/3zkP2SYe7yYoKKe47bsNe44yTgb4Ukh__rBbwXwgkjNRe4PykGG409ozBxzxkrubV7zHKjfxq6y9ShogWtMBMPyB3jiNps91LoNH8A=s500',
+                  child: Image.asset(
+                    'assets/you.jpg',
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -233,8 +232,8 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  child: Image.network(
-                    'https://lh3.googleusercontent.com/3zkP2SYe7yYoKKe47bsNe44yTgb4Ukh__rBbwXwgkjNRe4PykGG409ozBxzxkrubV7zHKjfxq6y9ShogWtMBMPyB3jiNps91LoNH8A=s500',
+                  child: Image.asset(
+                    'assets/you.jpg',
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -245,8 +244,8 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  child: Image.network(
-                    'https://lh3.googleusercontent.com/3zkP2SYe7yYoKKe47bsNe44yTgb4Ukh__rBbwXwgkjNRe4PykGG409ozBxzxkrubV7zHKjfxq6y9ShogWtMBMPyB3jiNps91LoNH8A=s500',
+                  child: Image.asset(
+                    'assets/you.jpg',
                     fit: BoxFit.cover,
                   ),
                 ),
