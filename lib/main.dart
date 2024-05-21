@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:header_navbar/test.dart';
+import 'package:header_navbar/profile_page.dart';
 
 import 'author_page.dart';
 import 'books_page.dart';
 import 'cart_page.dart';
 import 'home_page.dart';
-import 'profile_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,13 +14,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(),
-    );
+        title: '',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: MyHomePage(),
+        routes: {});
   }
 }
 
@@ -63,15 +62,19 @@ class _MyHomePageState extends State<MyHomePage> {
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
       backgroundColor: Colors.green[100],
-      bottomNavigationBar: Padding(
-        padding: EdgeInsets.only(bottom: 10, left: 50.0, right: 50.0),
+      bottomNavigationBar:
+       Padding(
+        padding: EdgeInsets.only(bottom: 20, left: 20.0, right: 20.0),
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(35.0),
+          borderRadius: BorderRadius.circular(15.0),
           child: AnimatedContainer(
             duration: Duration(milliseconds: 100),
-            height: 45,
+            height: 65,
             child: Container(
-              color: Colors.green[900],
+              decoration: BoxDecoration(
+                color: Colors.green[900],
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: List.generate(
@@ -134,10 +137,10 @@ class _MyHomePageState extends State<MyHomePage> {
         flexibleSpace: Stack(
           children: [
             Positioned(
-              top: -154,
+              top: -155,
               left: -30,
               width: 645,
-              height: 290,
+              height: 300,
               child: Opacity(
                 opacity: 0.40,
                 child: Image.asset(
@@ -190,7 +193,7 @@ class _MyHomePageState extends State<MyHomePage> {
               top: -154,
               left: -80,
               width: 645,
-              height: 290,
+              height: 300,
               child: Opacity(
                 opacity: 0.40,
                 child: Image.asset(
@@ -240,10 +243,7 @@ class _MyHomePageState extends State<MyHomePage> {
         leading: Padding(
           padding: EdgeInsets.only(left: 16.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => TestPage()));
-            },
+            onTap: () {},
             child: CircleAvatar(
               backgroundImage: AssetImage('assets/Rectangle 14.png'),
               radius: 20,
@@ -257,7 +257,7 @@ class _MyHomePageState extends State<MyHomePage> {
               top: -154,
               left: -130,
               width: 645,
-              height: 290,
+              height: 300,
               child: Opacity(
                 opacity: 0.40,
                 child: Image.asset(
@@ -301,7 +301,7 @@ class _MyHomePageState extends State<MyHomePage> {
               top: -154,
               left: -180,
               width: 645,
-              height: 290,
+              height: 300,
               child: Opacity(
                 opacity: 0.40,
                 child: Image.asset(
@@ -354,7 +354,7 @@ class _MyHomePageState extends State<MyHomePage> {
               top: -154,
               left: -230,
               width: 645,
-              height: 290,
+              height: 300,
               child: Opacity(
                 opacity: 0.40,
                 child: Image.asset(
