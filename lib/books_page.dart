@@ -12,7 +12,7 @@ class BooksPage extends StatelessWidget {
             margin: EdgeInsets.only(top: 30, left: 15, right: 15),
             padding: EdgeInsets.all(20.0),
             decoration: BoxDecoration(
-              color: Colors.green.shade600,
+              color: Color.fromARGB(255, 0, 84, 41),
               borderRadius: BorderRadius.all(Radius.circular(10)),
             ),
             child: Stack(
@@ -69,7 +69,7 @@ class BooksPage extends StatelessWidget {
             margin: EdgeInsets.only(top: 30, left: 15, right: 15),
             padding: EdgeInsets.all(20.0),
             decoration: BoxDecoration(
-              color: Colors.green.shade600,
+              color: Color.fromARGB(255, 0, 84, 41),
               borderRadius: BorderRadius.all(Radius.circular(10)),
             ),
             child: Stack(
@@ -126,7 +126,7 @@ class BooksPage extends StatelessWidget {
             margin: EdgeInsets.only(top: 30, left: 15, right: 15),
             padding: EdgeInsets.all(20.0),
             decoration: BoxDecoration(
-              color: Colors.green.shade600,
+              color: Color.fromARGB(255, 0, 84, 41),
               borderRadius: BorderRadius.all(Radius.circular(10)),
             ),
             child: Stack(
@@ -183,7 +183,7 @@ class BooksPage extends StatelessWidget {
             margin: EdgeInsets.only(top: 30, left: 15, right: 15),
             padding: EdgeInsets.all(20.0),
             decoration: BoxDecoration(
-              color: Colors.green.shade600,
+              color: Color.fromARGB(255, 0, 84, 41),
               borderRadius: BorderRadius.all(Radius.circular(10)),
             ),
             child: Stack(

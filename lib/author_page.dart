@@ -11,13 +11,10 @@ class AuthorPage extends StatelessWidget {
         Stack(
           children: [
             Container(
-              width: MediaQuery.of(context)
-                  .size
-                  .width, // Use MediaQuery to get screen width
-              margin: const EdgeInsets.only(top: 85),
+              width: MediaQuery.of(context).size.width,
+              margin: const EdgeInsets.only(top: 130, left: 20, right: 20),
               decoration: BoxDecoration(
                 color: Colors.white,
-                borderRadius: BorderRadius.circular(20),
               ),
               child: const Padding(
                 padding: EdgeInsets.only(top: 100, left: 20, right: 20),
@@ -81,9 +78,9 @@ class AuthorPage extends StatelessWidget {
             Center(
               child: Container(
                 width: 210,
-                height: 180,
+                height: 200,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(25),
+                  borderRadius: BorderRadius.circular(30),
                   image: const DecorationImage(
                     image: AssetImage('assets/author.png'),
                     fit: BoxFit.cover,

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Buy extends StatelessWidget {
-  const Buy({Key? key}) : super(key: key);
+class MahanNepali extends StatelessWidget {
+  const MahanNepali({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
 
     return Scaffold(
-      backgroundColor: Colors.green[600],
+      backgroundColor: Colors.red[200],
       body: SingleChildScrollView(
         child: Stack(
           children: [
@@ -29,10 +29,10 @@ class Buy extends StatelessWidget {
                 Center(
                   child: Container(
                     width: 147,
-                    height: 256,
+                    height: 220,
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage('assets/rhinobook.png'),
+                        image: AssetImage('assets/front.png'),
                         fit: BoxFit.fill,
                       ),
                     ),
@@ -41,7 +41,7 @@ class Buy extends StatelessWidget {
                 SizedBox(height: 9),
                 Center(
                   child: Text(
-                    'Rhino HeartBeat',
+                    'Mahan Nepali',
                     style: TextStyle(
                       fontFamily: 'Poppins',
                       fontSize: 26,
@@ -49,7 +49,6 @@ class Buy extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(height: 9),
                 Center(
                   child: Text(
                     'Kamal Jung Kunwar',
@@ -66,7 +65,7 @@ class Buy extends StatelessWidget {
                   width: double.infinity,
                   height: 57,
                   decoration: BoxDecoration(
-                    color: Colors.green[100],
+                    color: Colors.blue[100],
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: Center(
@@ -74,7 +73,7 @@ class Buy extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          "2013 ",
+                          "2078 ",
                           style: TextStyle(
                             color: Colors.black,
                             fontFamily: 'Poppins',
@@ -93,7 +92,7 @@ class Buy extends StatelessWidget {
                         ),
                         SizedBox(width: 10),
                         Text(
-                          "252 ",
+                          "244 ",
                           style: TextStyle(
                             color: Colors.black,
                             fontFamily: 'Poppins',
@@ -156,12 +155,12 @@ class Buy extends StatelessWidget {
                           style: TextStyle(
                             fontFamily: "Poppins",
                             fontSize: 14,
-                            fontWeight: FontWeight.bold, // Making title bold
+                            fontWeight: FontWeight.bold,
                             color: Colors.black,
                           ),
                         ),
                         TextSpan(
-                          text: 'Rhino Heartbeat\n', // Title
+                          text: 'Mahan Nepali \n',
                           style: TextStyle(
                             fontFamily: "Poppins",
                             fontSize: 14,
@@ -179,7 +178,7 @@ class Buy extends StatelessWidget {
                           ),
                         ),
                         TextSpan(
-                          text: 'Kamal Jung Kunwar\n', // Author
+                          text: 'Kamal Jung Kunwar\n',
                           style: TextStyle(
                             fontFamily: "Poppins",
                             fontSize: 14,
@@ -197,7 +196,7 @@ class Buy extends StatelessWidget {
                           ),
                         ),
                         TextSpan(
-                          text: '2013\n',
+                          text: '20\n',
                           style: TextStyle(
                             fontFamily: "Poppins",
                             fontSize: 14,
@@ -215,7 +214,7 @@ class Buy extends StatelessWidget {
                           ),
                         ),
                         TextSpan(
-                          text: '329\n',
+                          text: '244\n',
                           style: TextStyle(
                             fontFamily: "Poppins",
                             fontSize: 14,
@@ -267,7 +266,7 @@ class Buy extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Text(
-                    "A success story of Rhino Conservation in Chitwan National Park, Nepal. During the political insurgency period (2001-2006), there was a critical situation of Poaching of One horned Rhinoceros in Chitwan National Park (CNP) and Bardia National Park, Nepal. More than 37 rhinos were poached in Chitwan National Park (CNP) in 2002. \"Rhino Heartbeat\" is a book by Kamal Jung Kunwar narrating the difficulties and challenges he faced while working as an assistant warden leading the anti-poaching operation unit in the CNP Office from the year 2003 to 2007. It is based on his experience of four years in rhino conservation. This book is an account of what he discovered, what he did, and what actually happened to control the poaching of rhinos in CNP. The incidents of rhino poaching drastically decreased over the years and only two rhinos were killed in 2007. Subsequently, he continued his work as the acting chief warden from March to August 2007, during which period not a single rhino was poached. Ultimately, through unwavering commitment, patience, continuity, and the lessons learned from his mistakes, he achieved his 'Dream of Zero Poaching' of rhino. From 2013 to 2015, he again continued his work as the chief warden in the CNP. Nepal Celebrated the ‘Zero Poaching Years’ of Rhino in 2013 and 2015. There were 544 rhinos in 2000 which decreased to 372 in 2005. Due to serious conservation efforts, the rhino population has remarkably increased in number and reached 605 in the year 2015. The 2021 national rhino census has updated the one-horned rhino population to 752 individuals. Out of these, 694 are in Chitwan, 37 in Bardia, 17 in Shuklaphanta, and three in Parsa National Park.",
+                    "We have to create a golden history, handing over a developed and self-reliant Nepal to future generations. The recognition and dignity of the oratorical civilization established in the vicinity of Sri Pashupatinath is to be established among the world community. It is to send a message of unity and peace to the world from Nepal, the birthplace of Lord Gautama Buddha and the country of the world's highest peak, Mount Everest.\n\nTo protect human existence in the world by minimizing the negative effects of climate change, to maintain a balanced environment in the country, and to make the country and nature conservation sector free from corruption.",
                     style: TextStyle(
                       fontFamily: "Poppins",
                       fontSize: 14,
@@ -297,17 +296,17 @@ class Buy extends StatelessWidget {
                         width: 77,
                         height: 83,
                         decoration: BoxDecoration(
-                          color: Colors.green[900],
+                          color: Colors.green[200],
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: Center(
                           child: Text(
-                            '<  ',
+                            '<',
                             style: TextStyle(
                               fontFamily: "Poppins",
                               fontSize: 40,
-                              fontWeight: FontWeight.w400,
-                              color: Colors.white,
+                              fontWeight: FontWeight.w200,
+                              color: Colors.black,
                             ),
                           ),
                         ),
@@ -347,7 +346,7 @@ class Buy extends StatelessWidget {
                                   Row(
                                     children: [
                                       Image.asset(
-                                        'assets/rhinobook.png',
+                                        'assets/front.png',
                                         width: 100,
                                         height: 200,
                                       ),
@@ -358,7 +357,7 @@ class Buy extends StatelessWidget {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              'Rhino HeartBeat',
+                                              'Mahan Nepali',
                                               style: TextStyle(
                                                 fontFamily: 'Poppins',
                                                 fontSize: 18,
@@ -411,7 +410,7 @@ class Buy extends StatelessWidget {
                                   ElevatedButton(
                                     style: ElevatedButton.styleFrom(
                                       minimumSize: Size(double.infinity, 50),
-                                      backgroundColor: Colors.green[900],
+                                      backgroundColor: Colors.green[200],
                                     ),
                                     onPressed: () {
                                       Navigator.pop(context);
@@ -422,7 +421,7 @@ class Buy extends StatelessWidget {
                                         fontFamily: 'Poppins',
                                         fontSize: 16,
                                         fontWeight: FontWeight.w400,
-                                        color: Colors.white,
+                                        color: Colors.black,
                                       ),
                                     ),
                                   ),
@@ -436,7 +435,7 @@ class Buy extends StatelessWidget {
                         width: 256,
                         height: 78,
                         decoration: BoxDecoration(
-                          color: Colors.green[900],
+                          color: Colors.green[200],
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: Center(
@@ -446,7 +445,7 @@ class Buy extends StatelessWidget {
                               fontFamily: "Poppins",
                               fontSize: 16,
                               fontWeight: FontWeight.w400,
-                              color: Colors.white,
+                              color: Colors.black,
                             ),
                           ),
                         ),
@@ -465,6 +464,6 @@ class Buy extends StatelessWidget {
 
 void main() {
   runApp(MaterialApp(
-    home: Buy(),
+    home: MahanNepali(),
   ));
 }
