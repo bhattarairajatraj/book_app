@@ -402,7 +402,7 @@ class MahanNepali extends StatelessWidget {
                                         fontFamily: 'Poppins',
                                         fontSize: 16,
                                         fontWeight: FontWeight.w400,
-                                        color: Colors.green,
+                                        color: Colors.red,
                                       ),
                                     ),
                                   ),
@@ -410,7 +410,7 @@ class MahanNepali extends StatelessWidget {
                                   ElevatedButton(
                                     style: ElevatedButton.styleFrom(
                                       minimumSize: Size(double.infinity, 50),
-                                      backgroundColor: Colors.green[200],
+                                      backgroundColor: Colors.red[200],
                                     ),
                                     onPressed: () {
                                       Navigator.pop(context);

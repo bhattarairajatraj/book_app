@@ -71,8 +71,8 @@ class _MyHomePageState extends State<MyHomePage> {
             height: 60,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.green[900],
-                borderRadius: BorderRadius.circular(15.0),
+                color: Colors.green[800],
+                borderRadius: BorderRadius.circular(17.0),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
