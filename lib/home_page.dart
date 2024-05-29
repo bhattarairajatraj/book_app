@@ -127,7 +127,7 @@ class HomePage extends StatelessWidget {
 
   Widget _buildBooksContainer(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 20, left: 20),
+      margin: EdgeInsets.only(top: 20, left: 20, right: 20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -221,7 +221,7 @@ class HomePage extends StatelessWidget {
 
   Widget _buildMoviesContainer() {
     return Container(
-      margin: EdgeInsets.only(top: 20, left: 25),
+      margin: EdgeInsets.only(top: 20, left: 25, right: 20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
